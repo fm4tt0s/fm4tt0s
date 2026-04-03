@@ -22,12 +22,16 @@ me.say_hi()
 ## Technologies & Tools
 
 ```python
-tech_stack = {
-    'cloud': ['IBM Cloud', 'Openshift', 'AWS', 'Azure', 'GCP'],
-    'iac': ['Terraform', 'Ansible', 'Puppet'],
-    'programming': ['Python', 'Javascript', 'Typescript', 'Shell Script', 'Bash/KSH', 'PowerShell', 'Go']
-}
+#!/usr/bin/python
 
-for category, items in tech_stack.items():
+data = [
+    ['cloud', 'IBM Cloud', 'Openshift', 'AWS', 'Azure', 'GCP'],
+    ['iac', 'Terraform', 'Ansible', 'Puppet'],
+    ['programming', 'Python', 'Javascript', 'Typescript', 'Shell Script', 'Bash/KSH', 'PowerShell', 'Go']
+]
+
+for row in data:
+    category = row[0]
+    items = row[1:]
     print(f"{category}: {', '.join(items)}")
 ```
