@@ -1,4 +1,8 @@
 # Hello there 👋
+
+```bash
+docker run --rm fmattos/hello-world
+```
   
 ```python
 #!/usr/bin/python
