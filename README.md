@@ -31,10 +31,13 @@ me.say_hi()
 data = [
     ['cloud', 'IBM Cloud', 'Openshift', 'AWS', 'Azure', 'GCP'],
     ['iac', 'Terraform', 'Ansible', 'Puppet'],
-    ['programming', 'Python', 'Javascript', 'Typescript', 'Shell Script', 'Bash/KSH', 'PowerShell', 'Go', 'Node'],
+    ['programming', 'Python', 'Javascript', 'Typescript', 'Shell Script', 'Bash/KSH',
+    'PowerShell', 'Go', 'Node'],
     ['os', 'Linux', 'Unix', 'Windows'],
     ['stack', 'Docker', 'K8S', 'DevSecOps', 'CyberSec', 'KMS', 'PKI'],
-    ['buzz', 'Hybrid Cloud Architecture', 'Cloud Modernization', 'SRE', 'Observability Design', 'Always-on Principles', 'Security', 'Encryption', 'Key Lifecycle Management', 'InfraSec', 'REST APIs', 'Data Pipelines']
+    ['buzz', 'Hybrid Cloud Architecture', 'Cloud Modernization', 'SRE', 'Observability Design',
+    'Always-on Principles', 'Security', 'Encryption', 'Key Lifecycle Management',
+    'InfraSec', 'REST APIs', 'Data Pipelines']
 ]
 
 for row in data:
