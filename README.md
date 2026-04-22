@@ -1,9 +1,7 @@
 # Hello there 👋
 
 ```bash
-docker run --rm fmattos/hello-world
-
-```
+docker run --rm fmattos/hello-world```
   
 ```python
 #!/usr/bin/python
@@ -12,8 +10,10 @@ class TechnologyArchitect:
         """who's this guy"""
         self.name            = "Felipe Mattos"
         self.role            = "Technology Architect, Techy, Cyclist, Father"
+        self.about           = "Hey there! I am a senior technology architect, navigating cloud, security, and innovation; occasionally sparking disruption, always delivering impact."
         self.languages       = ["pt_BR", "en_US"]
         self.location        = "Campinas, Sao Paulo, Brazil"
+        self.sites           = ["https://www.linkedin.com/in/fmattos", "https://www.credly.com/users/fmattos"]
         self.stack = {
             "cloud":         ["IBM Cloud", "Openshift", "AWS", "Azure", "GCP"],
             "iac":           ["Terraform", "Ansible", "Puppet"],
@@ -28,11 +28,14 @@ class TechnologyArchitect:
         }
 
     def __str__(self):
+        """define strings"""
         lines = [
             f"  name:        {self.name}",
             f"  role:        {self.role}",
+            f"  about:       {self.about}",
             f"  languages:   {', '.join(self.languages)}",
             f"  location:    {self.location}",
+            f"  sites:       {', '.join(self.sites)}",
             "",
             "  stack:",
         ]
@@ -43,11 +46,10 @@ class TechnologyArchitect:
         return "\n".join(lines)
 
     def say_hi(self):
+        """greetings"""
         print("Thanks for stopping by, hope you enjoy some of my work.")
 
 me = TechnologyArchitect()
 print(me)
 print()
-me.say_hi()
-
-```
+me.say_hi()```
