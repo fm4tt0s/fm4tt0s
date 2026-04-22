@@ -1,7 +1,8 @@
 # Hello there 👋
 
 ```bash
-docker run --rm fmattos/hello-world```
+docker run --rm fmattos/hello-world
+```
   
 ```python
 #!/usr/bin/python
@@ -52,4 +53,5 @@ class TechnologyArchitect:
 me = TechnologyArchitect()
 print(me)
 print()
-me.say_hi()```
+me.say_hi()
+```
