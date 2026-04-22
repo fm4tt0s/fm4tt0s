@@ -2,6 +2,7 @@
 
 ```bash
 docker run --rm fmattos/hello-world
+
 ```
   
 ```python
@@ -48,4 +49,5 @@ me = TechnologyArchitect()
 print(me)
 print()
 me.say_hi()
+
 ```
